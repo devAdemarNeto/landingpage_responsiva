@@ -35,7 +35,10 @@ h2{
 
 #presentation-container{
     padding: 2.5rem 7.5rem;
-    height: 50vh;
+    height: 100vh;
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #presentation{
@@ -60,4 +63,14 @@ h2{
 
 .container > button {
     margin-top: 2rem;
+    transition: opacity 0.5 ease-in-out transform 0.5s .2s;
+}
+
+.container > button:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.linear-gradient{
+    background: linear-gradient(180deg, #fff, #d9d9d9);
 }
