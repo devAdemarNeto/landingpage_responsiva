@@ -120,6 +120,21 @@ h2{
 }
 
 
-.article-details >button {
+.article-details > button {
     font-size: 1rem;
+}
+
+.footer-list{
+    display: flex;
+    text-align: left;
+}
+
+.footer-list > ul > li {
+    list-style: none;
+    margin: 1rem;
+}
+
+.footer-list-title{
+    margin-bottom: 1.5rem;
+    font-weight: 700;
 }
