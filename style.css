@@ -134,7 +134,18 @@ h2{
     margin: 1rem;
 }
 
-.footer-list-title{
+.footer-list > ul > li:last-child {    
+    margin-bottom: 0;
+}
+
+.footer-list > ul > li:last-child {    
     margin-bottom: 1.5rem;
-    font-weight: 700;
+     font-weight: 700;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8.5rem;
 }
